@@ -1,0 +1,119 @@
+###
+# Add direct article
+###
+POST http://localhost:8000/article-direct/seller-123
+Content-Type: application/json
+
+{
+  "picture": "null",
+  "title": "Direct article",
+  "description": "Direct article description",
+  "price": "23",
+  "categories": [
+    {
+      "name": "Sun"
+    },
+    {
+      "name": "kz"
+    }
+  ],
+  "keywords": [
+    {
+      "name": "effer"
+    },
+    {
+      "name": "eze"
+    }
+  ],
+  "seller": {
+    "id": 1
+  }
+}
+
+###
+# Add article auction
+###
+POST http://localhost:8000/article-auction/seller-123
+Content-Type: application/json
+
+{
+  "picture": "null",
+  "title": "Auction article",
+  "description": "Action article description",
+  "price": "422",
+  "categories": [
+    {
+      "name": "Sun"
+    },
+    {
+      "name": "kzele"
+    }
+  ],
+  "keywords": [
+    {
+      "name": "Obj"
+    },
+    {
+      "name": "efze"
+    }
+  ],
+  "seller": {
+    "id": 1
+  },
+  "duration": 3
+}
+
+###
+# Get Articles
+###
+GET http://localhost:8000/articles
+
+###
+# Get user articles
+###
+GET http://localhost:8000/user-articles/1
+
+###
+# Get not purchased Articles
+###
+GET http://localhost:8000/not-purchased-articles
+
+###
+# Articles by categories
+###
+GET http://localhost:8000/articles-by-categories/Sun
+
+###
+# Articles by keywords
+###
+GET http://localhost:8000/articles-by-keywords/Obj
+
+###
+# Do article purchase request
+###
+PUT http://localhost:8000/article-purchase-request/1/1/purchaser-123
+
+###
+# Accept article purchase
+###
+PUT http://localhost:8000/article-accept-purchase/1/seller-123
+
+###
+# Refuse article purchase
+###
+PUT http://localhost:8000/article-refuse-purchase/1/seller-123
+
+###
+# Article overbid
+###
+PUT http://localhost:8000/article-overbid/1/1/purchaser-123/999999
+
+###
+# Evaluate seller
+###
+PUT http://localhost:8000/article-user-evaluation/1/purchaser-123/4
+
+###
+# Evaluate purchaser
+###
+PUT http://localhost:8000/article-user-evaluation/1/seller-123/3

@@ -1,0 +1,64 @@
+<header>
+  <div class="d-flex align-items-center justify-content-between border-bottom box-shadow">
+    <a class="ps-3" routerLink="/" ><img src="assets/ibuysu.png" alt="iBuySU" width="75"/></a>
+
+    <div class="me-3" *ngIf="!isAuth">
+      <button class="btn-sm btn-outline-primary me-3" (click)="openModal('signUp')">Sign up</button>
+      <button class="btn-sm btn-outline-primary" (click)="openModal('logIn')">Log in</button>
+    </div>
+
+    <div class="d-flex align-items-center" *ngIf="isAuth">
+      <button class="btn-sm btn-outline-primary" routerLink="/profile" style="margin-left: 15px"><i class="far fa-user-circle"></i></button>
+      <button class="me-3 ms-3 btn-sm btn-outline-primary" (click)="logOut()">Log out</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="modal-background overflow-auto" *ngIf="modalIsOpen">
+    <div class="modal-wrapper">
+      <div class="modal-header">
+        <div class="modal-title">
+          <h5 *ngIf="!isAuth && modalContent == 'signUp'">Sign up</h5>
+          <h5 *ngIf="!isAuth && modalContent == 'logIn'">Log in</h5>
+        </div>
+        <a style="vertical-align: center; cursor: pointer"><i class="modal-close-button far fa-times-circle"
+                                                              (click)="closeModal()"></i></a>
+      </div>
+      <div class="modal-body">
+        <app-signup *ngIf="modalContent == 'signUp'"></app-signup>
+        <app-login *ngIf="modalContent == 'logIn'" (loginModalStateEmitter)="closeModal()"></app-login>
+      </div>
+      <div class="modal-footer">
+        <span></span>
+        <button class="modal-cancel-button" (click)="closeModal()">cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="mt-5 container text-muted">
+  <hr>
+  <div class="mt-5 mb-5 w-100 d-flex align-items-center justify-content-between">
+    <div>
+      <p><strong>Coded</strong> with <i class="fas fa-heart text-danger" style="font-size: 1.4rem"></i> by :</p>
+      <ul>
+        <li><strong>Doha EL HITARY</strong></li>
+        <li><strong>Sarah HABBI</strong></li>
+        <li><strong>Siyani SIVANATHAN</strong></li>
+        <li><strong>Dalil CHABLIS</strong></li>
+        <li><strong>Darko DJORDJEVIC</strong></li>
+        <li><strong>Youssef HASSANEIN</strong></li>
+      </ul>
+      <p>
+        <i class="fab fa-gitlab me-3"></i>
+        <a href="https://gitlab.com/dalil01/ibuysu" target="_blank" title="Gitlab">https://gitlab.com/dalil01/ibuysu</a></p>
+    </div>
+
+    <p class="me-5">
+      <a href="#" title="Back to top" style="font-size: 1.6rem"><i class="fas fa-arrow-circle-up"></i></a>
+    </p>
+   </div>
+</footer>

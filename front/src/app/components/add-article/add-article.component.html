@@ -1,0 +1,65 @@
+<section>
+  <div class="col-10 mx-auto" >
+      <form [formGroup]="addArticleForm" (ngSubmit)="onSubmitAddArticleForm()">
+
+        <div class="mt-3 form-group">
+          <label>Select sell option</label>
+          <select formControlName="selectDirectOrAuction" class="form-control form-select" required>
+            <option selected="true" disabled="disabled">Choose a option sell</option>
+            <option value="direct">direct</option>
+            <option value="auction">auction</option>
+          </select>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Picture</label>
+          <input formControlName="picture" class="form-control" type="text" placeholder="url" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Title</label>
+          <input formControlName="title" class="form-control" type="text" placeholder="title" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Description</label>
+          <input formControlName="description" class="form-control" type="text" placeholder="description" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Price</label>
+          <input formControlName="price" class="form-control" min="0" type="number" placeholder="$" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Categories</label>
+          <input formControlName="categories" class="form-control" type="text" placeholder="categories" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Keywords</label>
+          <input formControlName="keywords" class="form-control" type="text" placeholder="keywords" required>
+        </div>
+
+        <div *ngIf="!selectDirectOption" class="mt-3 form-group">
+          <label>Duration</label>
+          <select formControlName="duration" class="form-control form-select" required>
+            <option selected="true" disabled="disabled">Choose a duration</option>
+            <option value=3 >3 days</option>
+            <option value=5 >5 days</option>
+            <option value=7 >7 days</option>
+            <option value=10 >10 days</option>
+          </select>
+        </div>
+
+        <div class="m-4 d-flex align-items-center justify-content-center">
+          <button class="" type="submit">Add article</button>
+        </div>
+      </form>
+      <div *ngIf="message" class="alert" [class]="{'alert-danger': message==messageError}">
+        <p>
+          {{message}}
+        </p>
+      </div>
+  </div>
+</section>

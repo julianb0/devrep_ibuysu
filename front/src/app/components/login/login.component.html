@@ -1,0 +1,15 @@
+<div class="col-6 m-4 mx-auto">
+  <div *ngIf="message" class="alert alert-danger">
+    <p>
+      {{message}}
+    </p>
+  </div>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmitLoginForm()">
+    <input formControlName="email" class="form-control" autocomplete="off" type="text" placeholder="Email or username">
+    <input formControlName="password" class="mt-3 form-control" type="password" placeholder="Password">
+
+    <div class="m-4 d-flex align-items-center justify-content-center">
+      <button class="mt-2 btn btn-primary">Log in</button>
+    </div>
+  </form>
+</div>
