@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.gl.ibuysu"},{"l":"com.gl.ibuysu.controllers"},{"l":"com.gl.ibuysu.models"},{"l":"com.gl.ibuysu.repositories"},{"l":"com.gl.ibuysu.utils"}];updateSearchResults();
