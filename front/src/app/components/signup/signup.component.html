@@ -46,33 +46,33 @@
           <input formControlName="phone" class="form-control" type="number" placeholder="Phone" required min=0>
         </div>
 
-        <div class="mt-3 form-group">
-          <label>Select credit card or Bank code</label>
-          <select formControlName="selectCreditCardOrBankCode" class="form-control" required>
-            <option value="creditCard">Credit card</option>
-            <option value="bankCode">Bank code</option>
-          </select>
-        </div>
 
-        <div *ngIf="creditCardIsSelected">
-          <div class="mt-3 form-group">
-            <label>Number</label>
-            <input formControlName="number" class="form-control" type="number" placeholder="Number" required min=0>
-          </div>
 
-          <div class="mt-3 form-group">
-            <label>Expiry date</label>
-            <input formControlName="expiryDate" class="form-control" type="date" placeholder="Expiry date" required>
-          </div>
 
-          <div class="mt-3 form-group">
-            <label>Security code</label>
-            <input formControlName="securityCode" class="form-control" type="number" placeholder="Security code"
-                   required>
-          </div>
-        </div>
 
-        <div *ngIf="!creditCardIsSelected">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <div class="mt-3 form-group">
             <label>BIC</label>
             <input formControlName="bic" class="form-control" type="text" placeholder="BIC" required>
@@ -82,7 +82,7 @@
             <label>IBAN</label>
             <input formControlName="iban" class="form-control" type="text" placeholder="IBAN" required>
           </div>
-        </div>
+
 
         <div class="mt-3 form-group">
           <label>Email</label>
@@ -159,5 +159,6 @@
   </div>
 
 </section>
+
 
 
