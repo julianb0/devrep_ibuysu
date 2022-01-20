@@ -152,6 +152,18 @@
             "hexColor": "#9dfd8a",
             "help": "",
             "nodeWeight": -1
+        },
+        {
+            "key": "7b29f4f7-625b-48e8-9f0b-2a6d2c524d96",
+            "name": "VenteDirecteEtEncheres",
+            "type": "Functionality feature",
+            "parent": "d17d4b69-b323-4253-bfe3-0a25635de297",
+            "parentRelation": "Or",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#8e12d8",
+            "help": "",
+            "nodeWeight": -1
         }
     ],
     "fileResources": [],
@@ -164,17 +176,17 @@
             "type": "⇔",
             "left": {
                 "type": "feature",
-                "featureKey": "eb1a2c6d-6446-42e6-90ac-3df61956a061"
+                "featureKey": "7b29f4f7-625b-48e8-9f0b-2a6d2c524d96"
             },
             "right": {
                 "type": "∧",
                 "left": {
                     "type": "feature",
-                    "featureKey": "49fa108c-b2de-4edd-8b30-2f7bae9c050c"
+                    "featureKey": "04981398-5fc4-4bc2-9607-5f5814057449"
                 },
                 "right": {
                     "type": "feature",
-                    "featureKey": "0f9bd53f-8c35-44bf-b0b4-a2302dce7f41"
+                    "featureKey": "93adbd37-821b-4425-a2f8-f558afee9a4a"
                 }
             }
         }
