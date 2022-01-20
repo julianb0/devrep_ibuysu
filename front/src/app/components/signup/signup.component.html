@@ -1,0 +1,163 @@
+<section>
+  <div class="m-4 d-flex align-items-center justify-content-center">
+    <button class="btn btn-sm btn-outline-primary me-3" [ngClass]="{'active': choice == 'seller'}"
+            (click)="setChoice('seller')">Seller account
+    </button>
+    <button class="btn btn-sm btn-outline-primary" [ngClass]="{'active': choice == 'purchaser'}"
+            (click)="setChoice('purchaser')">Purchaser account
+    </button>
+  </div>
+
+  <div class="col-10 mx-auto" >
+    <div *ngIf="choice == 'seller' && registerSellerForm">
+      <form [formGroup]="registerSellerForm" (ngSubmit)="onSubmitRegisterSellerForm()">
+        <div class="mt-3 form-group">
+          <label>Firstname</label>
+          <input formControlName="firstname" class="form-control" type="text" placeholder="First name" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Lastname</label>
+          <input formControlName="lastname" class="form-control" type="text" placeholder="Last name" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Country</label>
+          <input formControlName="country" class="form-control" type="text" placeholder="Country" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Address</label>
+          <input formControlName="address" class="form-control" type="text" placeholder="Address" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>City</label>
+          <input formControlName="city" class="form-control" type="text" placeholder="City" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Postal Code</label>
+          <input formControlName="postalCode" class="form-control" type="text" placeholder="Postal Code" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Phone</label>
+          <input formControlName="phone" class="form-control" type="number" placeholder="Phone" required min=0>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Select credit card or Bank code</label>
+          <select formControlName="selectCreditCardOrBankCode" class="form-control" required>
+            <option value="creditCard">Credit card</option>
+            <option value="bankCode">Bank code</option>
+          </select>
+        </div>
+
+        <div *ngIf="creditCardIsSelected">
+          <div class="mt-3 form-group">
+            <label>Number</label>
+            <input formControlName="number" class="form-control" type="number" placeholder="Number" required min=0>
+          </div>
+
+          <div class="mt-3 form-group">
+            <label>Expiry date</label>
+            <input formControlName="expiryDate" class="form-control" type="date" placeholder="Expiry date" required>
+          </div>
+
+          <div class="mt-3 form-group">
+            <label>Security code</label>
+            <input formControlName="securityCode" class="form-control" type="number" placeholder="Security code"
+                   required>
+          </div>
+        </div>
+
+        <div *ngIf="!creditCardIsSelected">
+          <div class="mt-3 form-group">
+            <label>BIC</label>
+            <input formControlName="bic" class="form-control" type="text" placeholder="BIC" required>
+          </div>
+
+          <div class="mt-3 form-group">
+            <label>IBAN</label>
+            <input formControlName="iban" class="form-control" type="text" placeholder="IBAN" required>
+          </div>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Email</label>
+          <input formControlName="email" class="form-control" type="email" placeholder="Email" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Password</label>
+          <input formControlName="password" class="form-control" type="password" placeholder="Password" required>
+        </div>
+
+        <div class="m-4 d-flex align-items-center justify-content-center">
+          <button class="" type="submit">Sign up</button>
+        </div>
+      </form>
+    </div>
+
+    <div *ngIf="choice == 'purchaser' && registerPurchaserForm">
+      <form [formGroup]="registerPurchaserForm" (ngSubmit)="onSubmitRegisterPurchaserForm()">
+        <div class="mt-3 form-group">
+          <label>Firstname</label>
+          <input formControlName="firstname" class="form-control" autocomplete="off" type="text" placeholder="First name" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Lastname</label>
+          <input formControlName="lastname" class="form-control" autocomplete="off" type="text" placeholder="Last name" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Country</label>
+          <input formControlName="country" class="form-control" type="text" placeholder="Country" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Address</label>
+          <input formControlName="address" class="form-control" type="text" placeholder="Address" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>City</label>
+          <input formControlName="city" class="form-control" type="text" placeholder="City" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Postal code</label>
+          <input formControlName="postalCode" class="form-control" type="text" placeholder="Postal Code" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Phone</label>
+          <input formControlName="phone" class="form-control" type="number" placeholder="Phone" required min=0>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Email</label>
+          <input formControlName="email" class="form-control" autocomplete="off" type="text" placeholder="Email" required>
+        </div>
+
+        <div class="mt-3 form-group">
+          <label>Password</label>
+          <input formControlName="password" class="form-control" type="password" placeholder="Password" required>
+        </div>
+
+        <div class="m-4 d-flex align-items-center justify-content-center">
+          <button type="submit">Sign up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div *ngIf="message" class="alert" [class]="{'alert-success': message==messageSuccess,'alert-danger': message==messageError}">
+    <p>{{message}}</p>
+  </div>
+
+</section>
+
+

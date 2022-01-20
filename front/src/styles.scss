@@ -1,0 +1,96 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/******************************\
+              Modals
+/******************************/
+
+.modal-background {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn .1ms both;
+}
+
+.modal-wrapper {
+  vertical-align: center;
+  background: #FFFFFF;
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  animation: slideFromTop .3s both;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 18px 12px 15px;
+  border-bottom: .5px solid #dee2e6;
+}
+
+.modal-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.modal-close-button {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.modal-body{
+  height: auto;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.modal-cancel-button {
+  background: #C9C9C9;
+  padding: 6px 8px;
+  font-size: .70rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border-color: transparent;
+  transition: background .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-cancel-button:hover {
+  background: #AAAAAA;
+}
+
+
+@media (min-width: 760px) {
+  .modal-wrapper {
+    width: 650px;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideFromTop {
+  from { transform: translateY(-50px); }
+  to { transform: translateY(0px); }
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: .5px solid #dee2e6;
+}

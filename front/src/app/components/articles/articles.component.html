@@ -1,0 +1,75 @@
+<div class="container mt-5 d-flex align-items-center justify-content-between">
+  <div>
+    <button class="btn-sm btn-outline-primary me-2" [class]="{'active': display == 'all'}" (click)="displayAllArticles()">All</button>
+    <button class="btn-sm btn-outline-primary me-2" [class]="{'active': display == 'direct'}" (click)="displayDirectArticles()">Direct</button>
+    <button class="btn-sm btn-outline-primary" [class]="{'active': display == 'auctions'}" (click)="displayAuctionsArticles()">Auctions</button>
+  </div>
+  <div *ngIf="withSearch" class="d-flex align-items-center">
+    <button class="btn-sm btn-outline-primary me-2" [ngClass]="{'active': search == 'keywords'}" (click)="search = 'keywords'">Keywords</button>
+    <button class="btn-sm btn-outline-primary me-2" [ngClass]="{'active': search == 'categories'}" (click)="search = 'categories'">Categories</button>
+    <form action="" class="d-flex align-items-center" [formGroup]="searchForm" (ngSubmit)="onSubmitSearchForm()">
+      <input formControlName="name" type="search" placeholder="Search by {{ search }}">
+      <button class="ms-2 btn btn-sm btn-primary"><i class="fas fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+<article class="mt-5 container" *ngIf="filteredArticles && filteredArticles.length > 0">
+  <hr>
+  <h5 class="mt-5">Results ({{ filteredArticles.length }})</h5>
+  <div class="d-flex">
+    <div class="card col-md-3 m-3 pb-2" *ngFor="let article of filteredArticles">
+      <img src="{{ article.picture.startsWith('http') ? article.picture : './assets/default-article.jpg' }}" alt="Image">
+     <div class="p-3">
+       <div class="mt-2">
+         <p *ngIf="(article.duration && article.duration>0) && article.purchaser"><strong>Limit date : </strong>{{ this.formatDate(article.limitDate) }}</p>
+         <h6>{{ article.title }}</h6>
+         <p class="mt-3">{{ article.description }}</p>
+         <p *ngIf="(article.duration && article.duration>0) && article.purchaser"><strong>Last bidder : </strong>{{ article.purchaser.firstname }} {{ article.purchaser.lastname }}</p>
+         <p><strong>Price : </strong>${{ article.price }}</p>
+         <p><strong>Seller : </strong><a routerLink="/profile/{{ article.seller.id }}">{{ article.seller.firstname }} {{ article.seller.lastname }}</a></p>
+         <p><strong>Categories : </strong>
+          <span *ngFor="let category of article.categories; let i = index">
+            <i>{{ category.name }}</i>
+            <i>{{ (i == article.categories.length - 1) ? '.' : ', ' }}</i>
+          </span>
+         </p>
+         <p><strong>Keywords : </strong>
+          <span *ngFor="let keyword of article.keywords; let i = index">
+            <i>{{ keyword.name }}</i>
+            <i>{{ (i == article.keywords.length - 1) ? '.' : ', ' }}</i>
+          </span>
+         </p>
+       </div>
+       <hr>
+       <div *ngIf="isAuth && userType == 'purchaser'">
+         <button class="btn-sm btn-outline-primary" *ngIf=" !(article.duration) && article?.purchaser?.id!=currentUser.id && (article.purchaseStatus == 'NONE' || article.purchaseStatus == 'REFUSED') " (click)="purchaseRequest(article)">Purchase request</button>
+          <div *ngIf="!auctionIsFinish(article.limitDate) && (article.duration && article.duration>0) && article?.purchaser?.id!=currentUser.id && (article.purchaseStatus == 'NONE' || article.purchaseStatus == 'REFUSED')">
+            <input type="number" placeholder="Enter a value" [(ngModel)]="newPrice" (ngModelChange)="inputPrice($event, article.price)" required>
+            <button class="btn-sm btn-outline-primary" (click)="overbid(article)">Send</button>
+          </div>
+         <i *ngIf="currentUser.id == article?.purchaser?.id && article.purchaseStatus != 'NONE'" ><strong>Status :</strong> {{ article.purchaseStatus }}</i>
+         <br>
+         <i *ngIf="currentUser.id == article?.purchaser?.id && article.purchaseStatus == 'ACCEPTED'" ><strong>Please contact :</strong> {{ article.seller.email }}</i>
+         <app-evaluate *ngIf="currentUser.id == article?.purchaser?.id && article.purchaseStatus == 'ACCEPTED'" [article]="article"></app-evaluate>
+       </div>
+       <div *ngIf="isAuth && userType == 'seller' && currentUser?.id == article?.seller?.id && article.purchaseStatus == 'ACCEPTED'">
+         <i><strong>Status :</strong> {{ article.purchaseStatus }}</i>
+         <br>
+         <i><strong>Purchaser contact :</strong> {{ article?.purchaser?.email }}</i>
+         <app-evaluate [article]="article"></app-evaluate>
+       </div>
+       <div class="mt-3 d-flex align-items-center justify-content-around" *ngIf="isAuth && userType == 'seller' && (article.purchaseStatus == 'PENDING' && article.seller.id==currentUser.id || (article.duration > 0 && auctionIsFinish(article.limitDate) && article.purchaseStatus == 'NONE'))" >
+         <button class="btn-sm btn-success" (click)="acceptPurchase(article)">Accept</button>
+         <button class="btn-sm btn-danger" (click)="refusePurchase(article)">Refuse</button>
+       </div>
+     </div>
+    </div>
+  </div>
+</article>
+
+<ng-template class="mt-5" *ngIf="filteredArticles?.length == 0">
+  <p class="mt-5"></p>
+  <hr>
+  <img class="mt-5 mb-5" src="./assets/ajax-loader.gif" alt="Loading...">
+</ng-template>

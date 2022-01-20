@@ -1,0 +1,59 @@
+###
+# Add Seller
+###
+POST http://localhost:8000/seller
+Content-Type: application/json
+
+{
+  "firstname": "John",
+  "lastname": "DOE",
+  "address": {
+    "country": "France",
+    "address": "8 bis jean jaurès",
+    "city": "Melun",
+    "postalCode": "77000"
+  },
+  "phone": "0621598465",
+  "email": "john.doe@gmail.com",
+  "password": "123",
+  "bankCode": {
+    "bic": "CMCIFRPP",
+    "iban": "FR7630001007941234567890185"
+  }
+}
+
+###
+# Add Purchaser
+###
+POST http://localhost:8000/purchaser
+Content-Type: application/json
+
+{
+  "firstname": "Jane",
+  "lastname": "DOE",
+  "address": {
+    "country": "France",
+    "address": "8 bis jean jaurès",
+    "city": "Champagne sur seine",
+    "postalCode": "77430"
+  },
+  "phone": "0654896248",
+  "email": "jane.doe@gmail.com",
+  "password": "123"
+}
+
+###
+# Get Auth User (apiKey)
+###
+GET http://localhost:8000/user/seller-123
+Accept: application/json
+
+###
+GET http://localhost:8000/user/purchaser-123
+Accept: application/jso
+
+###
+# Get User (id)
+###
+GET http://localhost:8000/user-by-id/6
+Accept: application/json

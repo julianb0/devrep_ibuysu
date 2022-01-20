@@ -1,0 +1,10 @@
+###
+# Login
+###
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+  "email": "darko.chablis@gmail.com",
+  "password": "blablabla"
+}

@@ -1,0 +1,8 @@
+<div class="mt-2" *ngIf="article">
+  <strong>Evaluate : </strong>
+  <Span class="ms-2 me-1 cursor-pointer text-warning" (click)="evaluate(1)"><i class="fa-star" [class]="{'far': note < 1, 'fas': note > 0}"></i></Span>
+  <Span class="me-1 cursor-pointer text-warning" (click)="evaluate(2)"><i class="fa-star" [class]="{'far': note < 2, 'fas': note > 1}"></i></Span>
+  <Span class="me-1 cursor-pointer text-warning" (click)="evaluate(3)"><i class="fa-star" [class]="{'far': note < 3, 'fas': note > 2}"></i></Span>
+  <Span class="me-1 cursor-pointer text-warning" (click)="evaluate(4)"><i class="fa-star" [class]="{'far': note < 4, 'fas': note > 3}"></i></Span>
+  <Span class="cursor-pointer text-warning" (click)="evaluate(5)"><i class="fa-star" [class]="{'far': note < 5, 'fas': note > 4}"></i></Span>
+</div>

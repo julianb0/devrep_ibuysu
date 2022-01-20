@@ -1,0 +1,30 @@
+<section class="container">
+  <div class="mt-5 d-flex align-items-center justify-content-between">
+    <div>
+      <h6><i class="far fa-user"></i> Profile <i class="fas fa-long-arrow-alt-right"></i> {{ currentUserProfile?.firstname + ' ' + currentUserProfile?.lastname | uppercase }}</h6>
+      <i>{{userType}}</i>
+    </div>
+    <button *ngIf="userType && userType == 'seller'" class="btn-sm btn-outline-primary" (click)="openProfileModal('add-article')">Sell article</button>
+  </div>
+
+  <app-articles *ngIf="currentUserProfile?.articles" [isCalledByProfileComponent]="true" [withSearch]="false"
+                [currentUser]="currentUserProfile"></app-articles>
+</section>
+
+<aside class="modal-background overflow-auto" *ngIf="profileModal">
+  <div class="modal-wrapper">
+    <div class="modal-header">
+      <div class="modal-title">
+        <h5 *ngIf="profileModalContent == 'add-article'">Sell article</h5>
+      </div>
+      <a style="vertical-align: center; cursor: pointer"><i class="modal-close-button far fa-times-circle" (click)="closeProfileModal()"></i></a>
+    </div>
+    <div class="modal-body">
+      <app-add-article *ngIf="profileModalContent == 'add-article'" [seller]="authUser"></app-add-article>
+    </div>
+    <div class="modal-footer">
+      <span></span>
+      <button class="modal-cancel-button" (click)="closeProfileModal()">cancel</button>
+    </div>
+  </div>
+</aside>
