@@ -1,3 +1,9 @@
 {
-    "replacements": []
+    "replacements": [
+        {
+            "id": "-Without-CreationVendeur",
+            "content": "        return false;",
+            "editorExtension": ".java"
+        }
+    ]
 }

@@ -7,5 +7,6 @@ RechercheParKeyword,0,0,0,0,0,0,0,0
 RechercheParCategorie,0,0,0,0,0,0,0,0
 MoyenPaiement,0,0,0,0,0,0,0,0
 PaiementParCompte,0,0,0,0,0,0,0,0
-PaiementParCarte,0,0,0,0,0,0,0,0
-ParCarte,0,0,0,0,0,0,0,0
+PaiementParCarte,1,1,0,1,1,0,0,0
+PaiementCarteEtCompte,4,4,0,5,5,0,0,0
+CreationVendeur,3,3,0,3,3,0,0,0

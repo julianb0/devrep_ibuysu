@@ -60,9 +60,9 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "5253c09b-c1b7-41db-b7eb-d6a5463915cf",
+            "id": "72a1a93a-5267-4eea-86b8-c7f0aa1bb785",
             "position": {
-                "x": 725,
+                "x": 610,
                 "y": 50
             },
             "attrs": {
@@ -155,702 +155,22 @@
             }
         },
         {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "5253c09b-c1b7-41db-b7eb-d6a5463915cf"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "509a075c-3940-4e04-a3c2-cfb82da2ce57"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "3dd438a4-796a-4681-8342-50a0dfd2a4b3",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "black"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "509a075c-3940-4e04-a3c2-cfb82da2ce57"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "bf095177-8165-4124-8215-929cf55cf693"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "47243963-5d13-4ad5-9da1-303842193107",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 0,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "509a075c-3940-4e04-a3c2-cfb82da2ce57"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "321d76e1-80fe-4ead-b2cb-14d9e3d49bdb"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "4910bf21-3c7b-45ef-95e9-e83fd9f2eec0",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 0,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "5253c09b-c1b7-41db-b7eb-d6a5463915cf"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "46d7b7f2-1bf2-4733-932e-5fe594553293"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "f065bc80-88b9-40e7-80dc-d9b7080d4acc",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "46d7b7f2-1bf2-4733-932e-5fe594553293"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "1fed92eb-2a46-413d-a4e5-80da534f8efb"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "73a95ca2-370e-4871-a891-841192099227",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 0,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "46d7b7f2-1bf2-4733-932e-5fe594553293"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "ed883de6-72a4-41c9-8687-5bb122e16316"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "dccc51e0-9952-4ab6-8c8b-50789b5a2103",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 0,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "5253c09b-c1b7-41db-b7eb-d6a5463915cf"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "48b5e7ac-5bc3-4fe8-b411-4f5a47e78603"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "225c035f-26d3-429c-ab29-62b2fc42bb86",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "black"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "48b5e7ac-5bc3-4fe8-b411-4f5a47e78603"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "ae3326a5-208b-4282-b67b-2081c10114c2"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "b53598d3-664c-4044-8b41-d3c82503107e",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 0,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "48b5e7ac-5bc3-4fe8-b411-4f5a47e78603"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "96cc34dd-484a-4e1b-b578-7045302d46f2"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "fe2ce915-99fc-4a6c-9db1-14df1a87a120",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "d17d4b69-b323-4253-bfe3-0a25635de297",
-                "name": "TypeVente",
-                "nodeType": "feature",
-                "type": "Functionality feature",
-                "parent": "a33028db-a820-4141-be2e-a544820afcbc",
-                "parentRelation": "Normal",
-                "presence": "Mandatory",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#85c35c",
-                "help": "",
-                "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "509a075c-3940-4e04-a3c2-cfb82da2ce57",
-            "position": {
-                "x": 265,
-                "y": 151
-            },
-            "z": 101,
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "TypeVente",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "block"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#85c35c",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
-                }
-            }
-        },
-        {
             "type": "app.FeatureShapeModel",
             "feature": {
                 "key": "04981398-5fc4-4bc2-9607-5f5814057449",
                 "name": "VenteEncheres",
-                "nodeType": "feature",
                 "type": "Functionality feature",
                 "parent": "d17d4b69-b323-4253-bfe3-0a25635de297",
-                "parentRelation": "Normal",
+                "parentRelation": "Or",
                 "presence": "Normal",
                 "lgFile": "",
                 "role": "",
                 "hexColor": "#c32a02",
                 "help": "",
                 "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "VenteEncheres"
             },
             "size": {
                 "width": 180,
@@ -895,12 +215,11 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "bf095177-8165-4124-8215-929cf55cf693",
+            "id": "56ec52f5-e855-4c7c-af7f-cd5b82fc0772",
             "position": {
                 "x": 150,
                 "y": 252
             },
-            "z": 102,
             "attrs": {
                 "body": {
                     "refWidth": "100%",
@@ -985,8 +304,7 @@
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
+                    "cursor": "pointer"
                 }
             }
         },
@@ -995,19 +313,18 @@
             "feature": {
                 "key": "93adbd37-821b-4425-a2f8-f558afee9a4a",
                 "name": "VenteDirecte",
-                "nodeType": "feature",
                 "type": "Functionality feature",
                 "parent": "d17d4b69-b323-4253-bfe3-0a25635de297",
-                "parentRelation": "Normal",
+                "parentRelation": "Or",
                 "presence": "Normal",
                 "lgFile": "",
                 "role": "",
                 "hexColor": "#8e1b46",
                 "help": "",
                 "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "VenteDirecte"
             },
             "size": {
                 "width": 180,
@@ -1052,12 +369,11 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "321d76e1-80fe-4ead-b2cb-14d9e3d49bdb",
+            "id": "ab7de356-62a3-4cb0-a3b6-3ce90e0bbab2",
             "position": {
                 "x": 380,
                 "y": 252
             },
-            "z": 103,
             "attrs": {
                 "body": {
                     "refWidth": "100%",
@@ -1142,8 +458,7 @@
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
+                    "cursor": "pointer"
                 }
             }
         },
@@ -1152,7 +467,6 @@
             "feature": {
                 "key": "099367a9-2b00-4cc9-b997-433c26f05e42",
                 "name": "Recherche",
-                "nodeType": "feature",
                 "type": "Functionality feature",
                 "parent": "a33028db-a820-4141-be2e-a544820afcbc",
                 "parentRelation": "Normal",
@@ -1162,9 +476,9 @@
                 "hexColor": "#37646e",
                 "help": "",
                 "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "Recherche"
             },
             "size": {
                 "width": 180,
@@ -1209,19 +523,18 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "46d7b7f2-1bf2-4733-932e-5fe594553293",
+            "id": "728cbc20-b558-4665-91f9-476fc30baa44",
             "position": {
-                "x": 725,
+                "x": 610,
                 "y": 151
             },
-            "z": 104,
             "attrs": {
                 "body": {
                     "refWidth": "100%",
                     "refHeight": "100%",
-                    "strokeWidth": 2,
+                    "strokeWidth": 1,
                     "fill": "#FFFFFF",
-                    "stroke": "#FFCFC3",
+                    "stroke": "#adc949",
                     "style": {
                         "transition": "0.3s ease-in-out"
                     },
@@ -1299,8 +612,7 @@
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
+                    "cursor": "pointer"
                 }
             }
         },
@@ -1309,7 +621,6 @@
             "feature": {
                 "key": "fda7babd-c5da-45bf-ae50-aa0fe05b72f5",
                 "name": "RechercheParKeyword",
-                "nodeType": "feature",
                 "type": "Functionality feature",
                 "parent": "099367a9-2b00-4cc9-b997-433c26f05e42",
                 "parentRelation": "Or",
@@ -1318,9 +629,9 @@
                 "hexColor": "#d90faa",
                 "help": "",
                 "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "RechercheParKeyword"
             },
             "size": {
                 "width": 180,
@@ -1365,12 +676,11 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "1fed92eb-2a46-413d-a4e5-80da534f8efb",
+            "id": "8426cc11-0ad0-4965-835f-d83851acc9ad",
             "position": {
                 "x": 610,
                 "y": 252
             },
-            "z": 105,
             "attrs": {
                 "body": {
                     "refWidth": "100%",
@@ -1455,8 +765,7 @@
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
+                    "cursor": "pointer"
                 }
             }
         },
@@ -1465,7 +774,6 @@
             "feature": {
                 "key": "bde2b9d9-1dce-47e2-9369-4a9d2526b90d",
                 "name": "RechercheParCategorie",
-                "nodeType": "feature",
                 "type": "Functionality feature",
                 "parent": "099367a9-2b00-4cc9-b997-433c26f05e42",
                 "parentRelation": "Or",
@@ -1474,9 +782,9 @@
                 "hexColor": "#14385d",
                 "help": "",
                 "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "RechercheParCategorie"
             },
             "size": {
                 "width": 180,
@@ -1521,12 +829,11 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "ed883de6-72a4-41c9-8687-5bb122e16316",
+            "id": "7fe00596-34b1-42ee-bda2-564056fad9b1",
             "position": {
                 "x": 840,
                 "y": 252
             },
-            "z": 106,
             "attrs": {
                 "body": {
                     "refWidth": "100%",
@@ -1611,29 +918,27 @@
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
+                    "cursor": "pointer"
                 }
             }
         },
         {
             "type": "app.FeatureShapeModel",
             "feature": {
-                "key": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
-                "name": "MoyenPaiement",
-                "nodeType": "feature",
+                "key": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
+                "name": "CreationVendeur",
                 "type": "Functionality feature",
                 "parent": "a33028db-a820-4141-be2e-a544820afcbc",
                 "parentRelation": "Normal",
-                "presence": "Mandatory",
+                "presence": "Optional",
                 "lgFile": "",
                 "role": "",
-                "hexColor": "#3fdb6c",
+                "hexColor": "#9dfd8a",
                 "help": "",
                 "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "CreationVendeur"
             },
             "size": {
                 "width": 180,
@@ -1678,12 +983,165 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "48b5e7ac-5bc3-4fe8-b411-4f5a47e78603",
+            "id": "59d4ee5c-aa8d-40c6-a163-a7aaeb9fac68",
             "position": {
-                "x": 1185,
+                "x": 1070,
                 "y": 151
             },
-            "z": 107,
+            "attrs": {
+                "body": {
+                    "refWidth": "100%",
+                    "refHeight": "100%",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "stroke": "#adc949",
+                    "style": {
+                        "transition": "0.3s ease-in-out"
+                    },
+                    "rx": 8,
+                    "ry": 8
+                },
+                "header": {
+                    "refWidth": "100%",
+                    "height": 0,
+                    "stroke": "#adc949",
+                    "strokeWidth": 0,
+                    "fill": "#adc949"
+                },
+                "headerText": {
+                    "text": ""
+                },
+                "bodyText": {
+                    "text": "CreationVendeur",
+                    "refX": "50%",
+                    "refY": "50%",
+                    "textWrap": {
+                        "ellipsis": true,
+                        "width": -10
+                    },
+                    "textVerticalAnchor": "middle",
+                    "textAnchor": "middle",
+                    "fontSize": 14,
+                    "fontWeight": 700,
+                    "fontFamily": "Inter"
+                },
+                "relationType": {
+                    "refX": "50%",
+                    "refY": "100%",
+                    "stroke": "#A0A0A0",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "strokeLinejoin": "round",
+                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
+                    "height": 20,
+                    "width": 30,
+                    "display": "block"
+                },
+                "deadFeature": {
+                    "refX": "68%",
+                    "refY": "65%",
+                    "fill": "#E63757",
+                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
+                    "title": "Dead Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "commonFeature": {
+                    "refX": "88%",
+                    "refY": "65%",
+                    "fill": "#0d6efd",
+                    "strokeLinejoin": "round",
+                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
+                    "title": "Common Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "falseOptionalFeature": {
+                    "refX": "78%",
+                    "refY": "65%",
+                    "fill": "#CA9704",
+                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
+                    "title": "False Optional Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "markerColorRect": {
+                    "refX": 12,
+                    "refY": 10,
+                    "fill": "#9dfd8a",
+                    "stroke": "none",
+                    "r": 6,
+                    "title": "Marker color",
+                    "cursor": "pointer"
+                }
+            }
+        },
+        {
+            "type": "app.FeatureShapeModel",
+            "feature": {
+                "key": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
+                "name": "MoyenPaiement",
+                "type": "Functionality feature",
+                "parent": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
+                "parentRelation": "Or",
+                "presence": "Normal",
+                "lgFile": "",
+                "role": "",
+                "hexColor": "#3fdb6c",
+                "help": "",
+                "nodeWeight": -1,
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "MoyenPaiement"
+            },
+            "size": {
+                "width": 180,
+                "height": 51
+            },
+            "hidden": false,
+            "markup": [
+                {
+                    "tagName": "rect",
+                    "selector": "body"
+                },
+                {
+                    "tagName": "rect",
+                    "selector": "header"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "headerText"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "bodyText"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "relationType"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "deadFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "commonFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "falseOptionalFeature"
+                },
+                {
+                    "tagName": "circle",
+                    "selector": "markerColorRect"
+                }
+            ],
+            "id": "955e6c7f-6892-49bc-8dd3-21fe28eea0c7",
+            "position": {
+                "x": 1070,
+                "y": 252
+            },
             "attrs": {
                 "body": {
                     "refWidth": "100%",
@@ -1731,7 +1189,7 @@
                     "d": "M 0 0 l -10 10 q 10 10 20 0 z",
                     "height": 20,
                     "width": 30,
-                    "display": "none"
+                    "display": "block"
                 },
                 "deadFeature": {
                     "refX": "68%",
@@ -1768,8 +1226,7 @@
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
+                    "cursor": "pointer"
                 }
             }
         },
@@ -1778,19 +1235,18 @@
             "feature": {
                 "key": "49fa108c-b2de-4edd-8b30-2f7bae9c050c",
                 "name": "PaiementParCompte",
-                "nodeType": "feature",
                 "type": "Functionality feature",
                 "parent": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
-                "parentRelation": "Normal",
+                "parentRelation": "Or",
                 "presence": "Normal",
                 "lgFile": "",
                 "role": "",
                 "hexColor": "#4335c1",
                 "help": "",
                 "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "PaiementParCompte"
             },
             "size": {
                 "width": 180,
@@ -1835,12 +1291,11 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "ae3326a5-208b-4282-b67b-2081c10114c2",
+            "id": "9c69babd-0e73-433a-96b0-a2f1989e59aa",
             "position": {
-                "x": 1070,
-                "y": 252
+                "x": 725,
+                "y": 353
             },
-            "z": 109,
             "attrs": {
                 "body": {
                     "refWidth": "100%",
@@ -1925,8 +1380,7 @@
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
+                    "cursor": "pointer"
                 }
             }
         },
@@ -1935,19 +1389,18 @@
             "feature": {
                 "key": "0f9bd53f-8c35-44bf-b0b4-a2302dce7f41",
                 "name": "PaiementParCarte",
-                "nodeType": "feature",
                 "type": "Functionality feature",
                 "parent": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
-                "parentRelation": "Normal",
-                "presence": "Optional",
+                "parentRelation": "Or",
+                "presence": "Normal",
                 "lgFile": "",
                 "role": "",
                 "hexColor": "#2a4cac",
                 "help": "",
                 "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "PaiementParCarte"
             },
             "size": {
                 "width": 180,
@@ -1992,12 +1445,11 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "96cc34dd-484a-4e1b-b578-7045302d46f2",
+            "id": "bf065082-7a98-4b7f-ad61-0e6eb987d31b",
             "position": {
-                "x": 1300,
-                "y": 252
+                "x": 955,
+                "y": 353
             },
-            "z": 110,
             "attrs": {
                 "body": {
                     "refWidth": "100%",
@@ -2079,6 +1531,953 @@
                     "refX": 12,
                     "refY": 10,
                     "fill": "#2a4cac",
+                    "stroke": "none",
+                    "r": 6,
+                    "title": "Marker color",
+                    "cursor": "pointer"
+                }
+            }
+        },
+        {
+            "type": "app.FeatureShapeModel",
+            "feature": {
+                "key": "eb1a2c6d-6446-42e6-90ac-3df61956a061",
+                "name": "PaiementCarteEtCompte",
+                "type": "Functionality feature",
+                "parent": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
+                "parentRelation": "Or",
+                "lgFile": "",
+                "role": "",
+                "hexColor": "#ae5cb1",
+                "help": "",
+                "nodeWeight": -1,
+                "nodeType": "feature",
+                "referenceType": "not a reference",
+                "fullName": "PaiementCarteEtCompte"
+            },
+            "size": {
+                "width": 180,
+                "height": 51
+            },
+            "hidden": false,
+            "markup": [
+                {
+                    "tagName": "rect",
+                    "selector": "body"
+                },
+                {
+                    "tagName": "rect",
+                    "selector": "header"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "headerText"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "bodyText"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "relationType"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "deadFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "commonFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "falseOptionalFeature"
+                },
+                {
+                    "tagName": "circle",
+                    "selector": "markerColorRect"
+                }
+            ],
+            "id": "33367f6b-bb83-4121-92e6-06ff521fb26e",
+            "position": {
+                "x": 1185,
+                "y": 353
+            },
+            "attrs": {
+                "body": {
+                    "refWidth": "100%",
+                    "refHeight": "100%",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "stroke": "#adc949",
+                    "style": {
+                        "transition": "0.3s ease-in-out"
+                    },
+                    "rx": 8,
+                    "ry": 8
+                },
+                "header": {
+                    "refWidth": "100%",
+                    "height": 0,
+                    "stroke": "#adc949",
+                    "strokeWidth": 0,
+                    "fill": "#adc949"
+                },
+                "headerText": {
+                    "text": ""
+                },
+                "bodyText": {
+                    "text": "PaiementCarteEtCompte",
+                    "refX": "50%",
+                    "refY": "50%",
+                    "textWrap": {
+                        "ellipsis": true,
+                        "width": -10
+                    },
+                    "textVerticalAnchor": "middle",
+                    "textAnchor": "middle",
+                    "fontSize": 14,
+                    "fontWeight": 700,
+                    "fontFamily": "Inter"
+                },
+                "relationType": {
+                    "refX": "50%",
+                    "refY": "100%",
+                    "stroke": "#A0A0A0",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "strokeLinejoin": "round",
+                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
+                    "height": 20,
+                    "width": 30,
+                    "display": "none"
+                },
+                "deadFeature": {
+                    "refX": "68%",
+                    "refY": "65%",
+                    "fill": "#E63757",
+                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
+                    "title": "Dead Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "commonFeature": {
+                    "refX": "88%",
+                    "refY": "65%",
+                    "fill": "#0d6efd",
+                    "strokeLinejoin": "round",
+                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
+                    "title": "Common Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "falseOptionalFeature": {
+                    "refX": "78%",
+                    "refY": "65%",
+                    "fill": "#CA9704",
+                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
+                    "title": "False Optional Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "markerColorRect": {
+                    "refX": 12,
+                    "refY": 10,
+                    "fill": "#ae5cb1",
+                    "stroke": "none",
+                    "r": 6,
+                    "title": "Marker color",
+                    "cursor": "pointer"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "72a1a93a-5267-4eea-86b8-c7f0aa1bb785"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "01db862e-3556-4cb9-b205-a34b854c3b20"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "b567f91e-0cf8-4ef8-8ec3-6229625c11f9",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "black"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "01db862e-3556-4cb9-b205-a34b854c3b20"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "56ec52f5-e855-4c7c-af7f-cd5b82fc0772"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "24b71e9e-637f-4ba4-9c0b-77df6ef7c9ce",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 0,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "01db862e-3556-4cb9-b205-a34b854c3b20"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "ab7de356-62a3-4cb0-a3b6-3ce90e0bbab2"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "5ec18a53-f26d-4134-b6e3-2a2c607ce3c0",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 0,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "72a1a93a-5267-4eea-86b8-c7f0aa1bb785"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "728cbc20-b558-4665-91f9-476fc30baa44"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "17e4d7c8-bcb6-4390-b3ae-bc338f8cf4c8",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "728cbc20-b558-4665-91f9-476fc30baa44"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "8426cc11-0ad0-4965-835f-d83851acc9ad"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "876571d9-351c-422a-906e-07c44a41defc",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 0,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "728cbc20-b558-4665-91f9-476fc30baa44"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "7fe00596-34b1-42ee-bda2-564056fad9b1"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "ddd322bb-139f-4ba6-bb35-088b2c812a8c",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 0,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "72a1a93a-5267-4eea-86b8-c7f0aa1bb785"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "59d4ee5c-aa8d-40c6-a163-a7aaeb9fac68"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "d321ccf9-6b90-4f8e-b659-3abcd48ec715",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "59d4ee5c-aa8d-40c6-a163-a7aaeb9fac68"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "955e6c7f-6892-49bc-8dd3-21fe28eea0c7"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "39a30a60-2817-4845-ac9b-8100c41ca496",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 0,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "955e6c7f-6892-49bc-8dd3-21fe28eea0c7"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "9c69babd-0e73-433a-96b0-a2f1989e59aa"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "eb0425d0-59ea-4247-b4be-d5de1e859a64",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 0,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "955e6c7f-6892-49bc-8dd3-21fe28eea0c7"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "bf065082-7a98-4b7f-ad61-0e6eb987d31b"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "96486c1a-2d04-4e55-9095-fe0d6b0ac222",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 0,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "955e6c7f-6892-49bc-8dd3-21fe28eea0c7"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "33367f6b-bb83-4121-92e6-06ff521fb26e"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "b011791d-0b9d-4349-aa32-a47a2c265756",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 0,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "type": "app.FeatureShapeModel",
+            "feature": {
+                "key": "d17d4b69-b323-4253-bfe3-0a25635de297",
+                "name": "TypeVente",
+                "nodeType": "feature",
+                "type": "Functionality feature",
+                "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+                "parentRelation": "Normal",
+                "presence": "Mandatory",
+                "lgFile": "",
+                "role": "",
+                "hexColor": "#85c35c",
+                "help": "",
+                "nodeWeight": -1,
+                "isPropagated": false,
+                "filePath": "",
+                "referenceType": "not a reference"
+            },
+            "size": {
+                "width": 180,
+                "height": 51
+            },
+            "hidden": false,
+            "markup": [
+                {
+                    "tagName": "rect",
+                    "selector": "body"
+                },
+                {
+                    "tagName": "rect",
+                    "selector": "header"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "headerText"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "bodyText"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "relationType"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "deadFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "commonFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "falseOptionalFeature"
+                },
+                {
+                    "tagName": "circle",
+                    "selector": "markerColorRect"
+                }
+            ],
+            "id": "01db862e-3556-4cb9-b205-a34b854c3b20",
+            "position": {
+                "x": 150,
+                "y": 151
+            },
+            "z": 101,
+            "attrs": {
+                "body": {
+                    "refWidth": "100%",
+                    "refHeight": "100%",
+                    "strokeWidth": 2,
+                    "fill": "#FFFFFF",
+                    "stroke": "#FFCFC3",
+                    "style": {
+                        "transition": "0.3s ease-in-out"
+                    },
+                    "rx": 8,
+                    "ry": 8
+                },
+                "header": {
+                    "refWidth": "100%",
+                    "height": 0,
+                    "stroke": "#adc949",
+                    "strokeWidth": 0,
+                    "fill": "#adc949"
+                },
+                "headerText": {
+                    "text": ""
+                },
+                "bodyText": {
+                    "text": "TypeVente",
+                    "refX": "50%",
+                    "refY": "50%",
+                    "textWrap": {
+                        "ellipsis": true,
+                        "width": -10
+                    },
+                    "textVerticalAnchor": "middle",
+                    "textAnchor": "middle",
+                    "fontSize": 14,
+                    "fontWeight": 700,
+                    "fontFamily": "Inter"
+                },
+                "relationType": {
+                    "refX": "50%",
+                    "refY": "100%",
+                    "stroke": "#A0A0A0",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "strokeLinejoin": "round",
+                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
+                    "height": 20,
+                    "width": 30,
+                    "display": "block"
+                },
+                "deadFeature": {
+                    "refX": "68%",
+                    "refY": "65%",
+                    "fill": "#E63757",
+                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
+                    "title": "Dead Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "commonFeature": {
+                    "refX": "88%",
+                    "refY": "65%",
+                    "fill": "#0d6efd",
+                    "strokeLinejoin": "round",
+                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
+                    "title": "Common Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "falseOptionalFeature": {
+                    "refX": "78%",
+                    "refY": "65%",
+                    "fill": "#CA9704",
+                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
+                    "title": "False Optional Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "markerColorRect": {
+                    "refX": 12,
+                    "refY": 10,
+                    "fill": "#85c35c",
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",

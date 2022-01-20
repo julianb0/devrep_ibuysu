@@ -1,4 +1,115 @@
 {
-    "rangeSeeds": [],
+    "rangeSeeds": [
+        {
+            "file": "front/src/app/components/signup/signup.component.html",
+            "seeds": [
+                {
+                    "id": "b35ea17a-4927-4a2e-964e-cbf28839d3cb",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
+                    "startLine": 1,
+                    "startColumn": 0,
+                    "endLine": 8,
+                    "endColumn": 8,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "d1ff4564-95f1-4a02-9842-9180ffae2964",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
+                    "startLine": 11,
+                    "startColumn": 0,
+                    "endLine": 102,
+                    "endColumn": 64,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "21adfb83-7ff9-4934-a346-8335ada81276",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "eb1a2c6d-6446-42e6-90ac-3df61956a061",
+                    "startLine": 48,
+                    "startColumn": 0,
+                    "endLine": 54,
+                    "endColumn": 14,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "e69508e1-9e26-4ab7-ae78-b5b1f8cddff2",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "eb1a2c6d-6446-42e6-90ac-3df61956a061",
+                    "startLine": 56,
+                    "startColumn": 0,
+                    "endLine": 56,
+                    "endColumn": 42,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "699dc4a6-221a-44ec-8d05-240d8a539e94",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "0f9bd53f-8c35-44bf-b0b4-a2302dce7f41",
+                    "startLine": 57,
+                    "startColumn": 0,
+                    "endLine": 71,
+                    "endColumn": 16,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "e7553991-205a-44b0-af82-a9854d0333d3",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "eb1a2c6d-6446-42e6-90ac-3df61956a061",
+                    "startLine": 72,
+                    "startColumn": 0,
+                    "endLine": 74,
+                    "endColumn": 43,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "f1377674-1a57-453d-897b-b11e862f9a6b",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "eb1a2c6d-6446-42e6-90ac-3df61956a061",
+                    "startLine": 84,
+                    "startColumn": 0,
+                    "endLine": 84,
+                    "endColumn": 14,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "a584f91b-0ca0-4911-8632-be8b5ccb92a3",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
+                    "startLine": 154,
+                    "startColumn": 0,
+                    "endLine": 154,
+                    "endColumn": 8,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "back/src/main/java/com/gl/ibuysu/controllers/UserController.java",
+            "seeds": [
+                {
+                    "id": "e9a9441b-47ba-46aa-9afe-b13d986ffbf0",
+                    "analyzer": "Interoperable analyzer",
+                    "featureKey": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
+                    "startLine": 21,
+                    "startColumn": 0,
+                    "endLine": 21,
+                    "endColumn": 47,
+                    "type": "Replacement",
+                    "libraryId": "-Without-CreationVendeur",
+                    "isValidated": true
+                }
+            ]
+        }
+    ],
     "fileSeeds": []
 }
