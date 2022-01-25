@@ -19,6 +19,9 @@
             "id": "-Without-Fog",
             "content": "",
             "editorExtension": ".scss"
+            "id": "-Without-CreationVendeur",
+            "content": "        return false;",
+            "editorExtension": ".java"
         }
     ]
 }

@@ -152,110 +152,29 @@
             "hexColor": "#9dfd8a",
             "help": "",
             "nodeWeight": -1
-        },
-        {
-            "key": "7b29f4f7-625b-48e8-9f0b-2a6d2c524d96",
-            "name": "VenteDirecteEtEncheres",
-            "type": "Functionality feature",
-            "parent": "d17d4b69-b323-4253-bfe3-0a25635de297",
-            "parentRelation": "Or",
-            "lgFile": "",
-            "role": "",
-            "hexColor": "#8e12d8",
-            "help": "",
-            "nodeWeight": -1
         }
     ],
-    "fileResources": [
-        {
-            "key": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
-            "name": "Logo",
-            "type": "Resource feature",
-            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
-            "parentRelation": "Normal",
-            "presence": "Optional",
-            "lgFile": "",
-            "role": "",
-            "hexColor": "#67c7f0",
-            "help": "",
-            "nodeWeight": -1,
-            "filePath": "front/src/assets"
-        }
-    ],
-    "textResources": [
-        {
-            "key": "0990e39e-0b81-41e1-b744-281d93c6704c",
-            "name": "Presentation",
-            "type": "Resource feature",
-            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
-            "parentRelation": "Normal",
-            "presence": "Normal",
-            "lgFile": "",
-            "role": "",
-            "hexColor": "#a8320b",
-            "help": "",
-            "nodeWeight": -1
-        }
-    ],
+    "fileResources": [],
+    "textResources": [],
     "smartAppAssetResources": [],
-    "colorResources": [
-        {
-            "key": "c45a66ae-8835-4f4b-8e26-860a81d539ec",
-            "name": "Fog",
-            "type": "Resource feature",
-            "parent": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
-            "parentRelation": "Normal",
-            "presence": "Optional",
-            "lgFile": "",
-            "role": "",
-            "hexColor": "#e2373d",
-            "help": "",
-            "nodeWeight": -1
-        },
-        {
-            "key": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
-            "name": "Colors",
-            "type": "Resource feature",
-            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
-            "parentRelation": "Normal",
-            "presence": "Optional",
-            "lgFile": "",
-            "role": "",
-            "hexColor": "#e63b3b",
-            "help": "",
-            "nodeWeight": -1
-        },
-        {
-            "key": "1199f8a2-1eee-4c37-9aa7-0d50566183ed",
-            "name": "Background",
-            "type": "Resource feature",
-            "parent": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
-            "parentRelation": "Normal",
-            "presence": "Optional",
-            "lgFile": "",
-            "role": "",
-            "hexColor": "#127fe0",
-            "help": "",
-            "nodeWeight": -1
-        }
-    ],
+    "colorResources": [],
     "referencedModels": [],
     "constraints": [
         {
             "type": "⇔",
             "left": {
                 "type": "feature",
-                "featureKey": "7b29f4f7-625b-48e8-9f0b-2a6d2c524d96"
+                "featureKey": "eb1a2c6d-6446-42e6-90ac-3df61956a061"
             },
             "right": {
                 "type": "∧",
                 "left": {
                     "type": "feature",
-                    "featureKey": "04981398-5fc4-4bc2-9607-5f5814057449"
+                    "featureKey": "49fa108c-b2de-4edd-8b30-2f7bae9c050c"
                 },
                 "right": {
                     "type": "feature",
-                    "featureKey": "93adbd37-821b-4425-a2f8-f558afee9a4a"
+                    "featureKey": "0f9bd53f-8c35-44bf-b0b4-a2302dce7f41"
                 }
             }
         }
