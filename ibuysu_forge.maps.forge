@@ -1,6 +1,133 @@
 {
     "deletionPropagations": [],
-    "replacementPropagations": [],
+    "replacementPropagations": [
+        {
+            "file": "front/src/app/components/app.component.html",
+            "propagations": [
+                {
+                    "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+                    "ranges": [
+                        {
+                            "propagationId": "975ba5b0-8773-4af3-9390-6fbac109d6a3",
+                            "sourceId": "975ba5b0-8773-4af3-9390-6fbac109d6a3",
+                            "startLine": 2,
+                            "startColumn": 46,
+                            "endLine": 2,
+                            "endColumn": 63,
+                            "isValidated": true,
+                            "analyzer": "Resource Analyzer",
+                            "isFromMarker": true,
+                            "libraryId": "Other-Logo",
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "0990e39e-0b81-41e1-b744-281d93c6704c",
+                    "ranges": [
+                        {
+                            "propagationId": "33db19d7-6408-4f64-9918-b98d2a2f92b4",
+                            "sourceId": "33db19d7-6408-4f64-9918-b98d2a2f92b4",
+                            "startLine": 45,
+                            "startColumn": 9,
+                            "endLine": 53,
+                            "endColumn": 11,
+                            "isValidated": true,
+                            "analyzer": "Resource Analyzer",
+                            "isFromMarker": true,
+                            "libraryId": "-Modified-Presentation",
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "front/src/styles.scss",
+            "propagations": [
+                {
+                    "featureKey": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+                    "ranges": [
+                        {
+                            "propagationId": "30c266d6-0ebb-4f40-b8e5-2a80a3e8ad79",
+                            "sourceId": "30c266d6-0ebb-4f40-b8e5-2a80a3e8ad79",
+                            "startLine": 24,
+                            "startColumn": 14,
+                            "endLine": 24,
+                            "endColumn": 21,
+                            "isValidated": true,
+                            "analyzer": "Resource Analyzer",
+                            "isFromMarker": true,
+                            "libraryId": "Background-Color",
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "c45a66ae-8835-4f4b-8e26-860a81d539ec",
+                    "ranges": [
+                        {
+                            "propagationId": "688d5b11-9ef7-42ce-9374-81f82391608d",
+                            "sourceId": "688d5b11-9ef7-42ce-9374-81f82391608d",
+                            "startLine": 15,
+                            "startColumn": 14,
+                            "endLine": 15,
+                            "endColumn": 31,
+                            "isValidated": true,
+                            "analyzer": "Resource Analyzer",
+                            "isFromMarker": true,
+                            "libraryId": "-Without-Fog",
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "1199f8a2-1eee-4c37-9aa7-0d50566183ed",
+                    "ranges": [
+                        {
+                            "propagationId": "b05dbd3a-d44c-4a5e-88f9-7df800ed14a7",
+                            "sourceId": "b05dbd3a-d44c-4a5e-88f9-7df800ed14a7",
+                            "startLine": 56,
+                            "startColumn": 14,
+                            "endLine": 56,
+                            "endColumn": 21,
+                            "isValidated": true,
+                            "analyzer": "Resource Analyzer",
+                            "isFromMarker": true,
+                            "libraryId": "Background-Color",
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     "resourcePropagations": [],
-    "pathPropagations": []
+    "pathPropagations": [
+        {
+            "propagationId": "db5c0b9f-bbeb-48b3-bb8f-0f96a476bfb7",
+            "sourceId": "b34b39e2-3aab-44b1-8134-009d67384131",
+            "propagatedPath": "front/src/assets/amazon.png",
+            "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+            "isValidated": true,
+            "analyzer": "File system analyzer",
+            "isFromMarker": false,
+            "contentAnalysis": false
+        },
+        {
+            "propagationId": "891a9249-e1d2-444c-8fee-45dcfcc1a095",
+            "sourceId": "72ca7c6f-bce2-43c0-987f-8c2f93d1a191",
+            "propagatedPath": "front/src/assets/ibuysu.png",
+            "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+            "isValidated": true,
+            "analyzer": "File system analyzer",
+            "isFromMarker": false,
+            "contentAnalysis": false
+        }
+    ]
 }

@@ -1,0 +1,28 @@
+{
+    "isAbsolutePath": false,
+    "resourcesPath": "resources/files",
+    "functionalityConfiguration": [
+        "a33028db-a820-4141-be2e-a544820afcbc",
+        "d17d4b69-b323-4253-bfe3-0a25635de297",
+        "04981398-5fc4-4bc2-9607-5f5814057449",
+        "099367a9-2b00-4cc9-b997-433c26f05e42",
+        "fda7babd-c5da-45bf-ae50-aa0fe05b72f5",
+        "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
+        "49fa108c-b2de-4edd-8b30-2f7bae9c050c"
+    ],
+    "fileResourceConfiguration": [
+        {
+            "key": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+            "value": "front/src/assets",
+            "fileName": "amazon.png"
+        }
+    ],
+    "textResourceConfiguration": [],
+    "assetResourceConfiguration": [],
+    "colorResourceConfiguration": [
+        {
+            "key": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+            "value": "#9e2929"
+        }
+    ]
+}

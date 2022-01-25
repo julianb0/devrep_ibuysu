@@ -1,4 +1,92 @@
 {
-    "rangeSeeds": [],
-    "fileSeeds": []
+    "rangeSeeds": [
+        {
+            "file": "front/src/app/components/app.component.html",
+            "seeds": [
+                {
+                    "id": "975ba5b0-8773-4af3-9390-6fbac109d6a3",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+                    "startLine": 2,
+                    "startColumn": 46,
+                    "endLine": 2,
+                    "endColumn": 63,
+                    "type": "Replacement",
+                    "libraryId": "Other-Logo",
+                    "isValidated": true
+                },
+                {
+                    "id": "33db19d7-6408-4f64-9918-b98d2a2f92b4",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "0990e39e-0b81-41e1-b744-281d93c6704c",
+                    "startLine": 45,
+                    "startColumn": 9,
+                    "endLine": 53,
+                    "endColumn": 11,
+                    "type": "Replacement",
+                    "libraryId": "-Modified-Presentation",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "front/src/styles.scss",
+            "seeds": [
+                {
+                    "id": "688d5b11-9ef7-42ce-9374-81f82391608d",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "c45a66ae-8835-4f4b-8e26-860a81d539ec",
+                    "startLine": 15,
+                    "startColumn": 14,
+                    "endLine": 15,
+                    "endColumn": 31,
+                    "type": "Replacement",
+                    "libraryId": "-Without-Fog",
+                    "isValidated": true
+                },
+                {
+                    "id": "30c266d6-0ebb-4f40-b8e5-2a80a3e8ad79",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+                    "startLine": 24,
+                    "startColumn": 14,
+                    "endLine": 24,
+                    "endColumn": 21,
+                    "type": "Replacement",
+                    "libraryId": "Background-Color",
+                    "isValidated": true
+                },
+                {
+                    "id": "b05dbd3a-d44c-4a5e-88f9-7df800ed14a7",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "1199f8a2-1eee-4c37-9aa7-0d50566183ed",
+                    "startLine": 56,
+                    "startColumn": 14,
+                    "endLine": 56,
+                    "endColumn": 21,
+                    "type": "Replacement",
+                    "libraryId": "Background-Color",
+                    "isValidated": true
+                }
+            ]
+        }
+    ],
+    "fileSeeds": [
+        {
+            "id": "b34b39e2-3aab-44b1-8134-009d67384131",
+            "file": "front/src/assets/amazon.png",
+            "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+            "analyzer": "File system analyzer",
+            "isValidated": true,
+            "contentAnalysis": false
+        },
+        {
+            "id": "72ca7c6f-bce2-43c0-987f-8c2f93d1a191",
+            "file": "front/src/assets/ibuysu.png",
+            "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+            "analyzer": "File system analyzer",
+            "isValidated": true,
+            "contentAnalysis": false
+        }
+    ]
 }

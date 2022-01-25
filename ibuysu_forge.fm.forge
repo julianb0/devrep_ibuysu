@@ -141,10 +141,79 @@
             "nodeWeight": -1
         }
     ],
-    "fileResources": [],
-    "textResources": [],
+    "fileResources": [
+        {
+            "key": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+            "name": "Logo",
+            "type": "Resource feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#67c7f0",
+            "help": "",
+            "nodeWeight": -1,
+            "filePath": "front/src/assets"
+        }
+    ],
+    "textResources": [
+        {
+            "key": "0990e39e-0b81-41e1-b744-281d93c6704c",
+            "name": "Presentation",
+            "type": "Resource feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#a8320b",
+            "help": "",
+            "nodeWeight": -1
+        }
+    ],
     "smartAppAssetResources": [],
-    "colorResources": [],
+    "colorResources": [
+        {
+            "key": "c45a66ae-8835-4f4b-8e26-860a81d539ec",
+            "name": "Fog",
+            "type": "Resource feature",
+            "parent": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#e2373d",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+            "name": "Colors",
+            "type": "Resource feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#e63b3b",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "1199f8a2-1eee-4c37-9aa7-0d50566183ed",
+            "name": "Background",
+            "type": "Resource feature",
+            "parent": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#127fe0",
+            "help": "",
+            "nodeWeight": -1
+        }
+    ],
     "referencedModels": [],
     "constraints": []
 }
