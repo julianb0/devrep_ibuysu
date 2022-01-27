@@ -127,6 +127,24 @@
                             "children": []
                         }
                     ]
+                },
+                {
+                    "featureKey": "49fa108c-b2de-4edd-8b30-2f7bae9c050c",
+                    "ranges": [
+                        {
+                            "propagationId": "5da00887-708e-46d3-b9cb-0769ac6ba8d7",
+                            "sourceId": "5da00887-708e-46d3-b9cb-0769ac6ba8d7",
+                            "startLine": 75,
+                            "startColumn": 0,
+                            "endLine": 83,
+                            "endColumn": 16,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
                 }
             ]
         },
@@ -160,7 +178,10 @@
                             "analyzer": "Interoperable analyzer",
                             "isFromMarker": true,
                             "parent": "-1",
-                            "children": []
+                            "children": [
+                                "752fcd7b-30af-4f63-8e10-c5d9eba858ec",
+                                "c351e26b-136d-4437-8052-ce41da9a5fc0"
+                            ]
                         }
                     ]
                 },
@@ -195,6 +216,68 @@
                             "isValidated": true,
                             "analyzer": "Interoperable analyzer",
                             "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
+                        },
+                        {
+                            "propagationId": "d9bc6d65-a009-4c8a-b240-2810ad89ce87",
+                            "sourceId": "b656bd71-fdff-41b6-abc2-2bba43cd436c",
+                            "startLine": 154,
+                            "startColumn": 53,
+                            "endLine": 154,
+                            "endColumn": 67,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": false,
+                            "parent": "-1",
+                            "children": []
+                        },
+                        {
+                            "propagationId": "3d32e9ad-eef0-457c-afda-492b002f75bc",
+                            "sourceId": "3d32e9ad-eef0-457c-afda-492b002f75bc",
+                            "startLine": 152,
+                            "startColumn": 0,
+                            "endLine": 158,
+                            "endColumn": 3,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "fda7babd-c5da-45bf-ae50-aa0fe05b72f5",
+                    "ranges": [
+                        {
+                            "propagationId": "752fcd7b-30af-4f63-8e10-c5d9eba858ec",
+                            "sourceId": "4d0b482f-1531-4cb1-950d-ef0bf8a89a2f",
+                            "startLine": 110,
+                            "startColumn": 58,
+                            "endLine": 110,
+                            "endColumn": 78,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": false,
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "bde2b9d9-1dce-47e2-9369-4a9d2526b90d",
+                    "ranges": [
+                        {
+                            "propagationId": "c351e26b-136d-4437-8052-ce41da9a5fc0",
+                            "sourceId": "ca42894f-46b2-4c5b-8f36-f1b32606dc61",
+                            "startLine": 103,
+                            "startColumn": 58,
+                            "endLine": 103,
+                            "endColumn": 79,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": false,
                             "parent": "-1",
                             "children": []
                         }
@@ -354,6 +437,19 @@
                             "isFromMarker": true,
                             "parent": "-1",
                             "children": []
+                        },
+                        {
+                            "propagationId": "d27ef06d-ef7a-4b34-83bd-8d05748ff091",
+                            "sourceId": "d27ef06d-ef7a-4b34-83bd-8d05748ff091",
+                            "startLine": 146,
+                            "startColumn": 0,
+                            "endLine": 162,
+                            "endColumn": 5,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
                         }
                     ]
                 }
@@ -381,67 +477,82 @@
                     ]
                 }
             ]
-        }
-    ],
-        "replacementPropagations": [
+        },
         {
-        "file": "back/src/main/java/com/gl/ibuysu/controllers/UserController.java",
+            "file": "front/src/app/services/article/article.service.ts",
+            "propagations": [
+                {
+                    "featureKey": "fda7babd-c5da-45bf-ae50-aa0fe05b72f5",
+                    "ranges": [
+                        {
+                            "propagationId": "4d0b482f-1531-4cb1-950d-ef0bf8a89a2f",
+                            "sourceId": "4d0b482f-1531-4cb1-950d-ef0bf8a89a2f",
+                            "startLine": 33,
+                            "startColumn": 0,
+                            "endLine": 35,
+                            "endColumn": 3,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "bde2b9d9-1dce-47e2-9369-4a9d2526b90d",
+                    "ranges": [
+                        {
+                            "propagationId": "ca42894f-46b2-4c5b-8f36-f1b32606dc61",
+                            "sourceId": "ca42894f-46b2-4c5b-8f36-f1b32606dc61",
+                            "startLine": 29,
+                            "startColumn": 0,
+                            "endLine": 31,
+                            "endColumn": 3,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "04981398-5fc4-4bc2-9607-5f5814057449",
+                    "ranges": [
+                        {
+                            "propagationId": "b656bd71-fdff-41b6-abc2-2bba43cd436c",
+                            "sourceId": "b656bd71-fdff-41b6-abc2-2bba43cd436c",
+                            "startLine": 41,
+                            "startColumn": 0,
+                            "endLine": 43,
+                            "endColumn": 3,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "front/src/app/services/user/user.service.ts",
             "propagations": [
                 {
                     "featureKey": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
                     "ranges": [
                         {
-                            "propagationId": "e9a9441b-47ba-46aa-9afe-b13d986ffbf0",
-                            "sourceId": "e9a9441b-47ba-46aa-9afe-b13d986ffbf0",
-                            "startLine": 21,
+                            "propagationId": "bfde4d56-f301-4f8f-b596-220fb13a93b6",
+                            "sourceId": "bfde4d56-f301-4f8f-b596-220fb13a93b6",
+                            "startLine": 16,
                             "startColumn": 0,
-                            "endLine": 21,
-                            "endColumn": 47,
-                            "isValidated": true,
+                            "endLine": 18,
+                            "endColumn": 3,
+                            "isValidated": false,
                             "analyzer": "Interoperable analyzer",
                             "isFromMarker": true,
-                            "libraryId": "-Without-CreationVendeur",
-                            "parent": "-1",
-                            "children": []
-                        }
-                    ]
-                }
-            ]
-            "file": "front/src/app/components/app.component.html",
-            "propagations": [
-                {
-                    "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
-                    "ranges": [
-                        {
-                            "propagationId": "975ba5b0-8773-4af3-9390-6fbac109d6a3",
-                            "sourceId": "975ba5b0-8773-4af3-9390-6fbac109d6a3",
-                            "startLine": 2,
-                            "startColumn": 46,
-                            "endLine": 2,
-                            "endColumn": 63,
-                            "isValidated": true,
-                            "analyzer": "Resource Analyzer",
-                            "isFromMarker": true,
-                            "libraryId": "Other-Logo",
-                            "parent": "-1",
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "featureKey": "0990e39e-0b81-41e1-b744-281d93c6704c",
-                    "ranges": [
-                        {
-                            "propagationId": "33db19d7-6408-4f64-9918-b98d2a2f92b4",
-                            "sourceId": "33db19d7-6408-4f64-9918-b98d2a2f92b4",
-                            "startLine": 45,
-                            "startColumn": 9,
-                            "endLine": 53,
-                            "endColumn": 11,
-                            "isValidated": true,
-                            "analyzer": "Resource Analyzer",
-                            "isFromMarker": true,
-                            "libraryId": "-Modified-Presentation",
                             "parent": "-1",
                             "children": []
                         }
@@ -450,60 +561,44 @@
             ]
         },
         {
-            "file": "front/src/styles.scss",
+            "file": "front/src/app/components/signup/signup.component.ts",
             "propagations": [
                 {
-                    "featureKey": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+                    "featureKey": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
                     "ranges": [
                         {
-                            "propagationId": "30c266d6-0ebb-4f40-b8e5-2a80a3e8ad79",
-                            "sourceId": "30c266d6-0ebb-4f40-b8e5-2a80a3e8ad79",
-                            "startLine": 24,
-                            "startColumn": 14,
-                            "endLine": 24,
-                            "endColumn": 21,
-                            "isValidated": true,
-                            "analyzer": "Resource Analyzer",
-                            "isFromMarker": true,
-                            "libraryId": "Background-Color",
+                            "propagationId": "c23e1d20-03b0-4acc-a449-c03bcfb20536",
+                            "sourceId": "bfde4d56-f301-4f8f-b596-220fb13a93b6",
+                            "startLine": 108,
+                            "startColumn": 53,
+                            "endLine": 108,
+                            "endColumn": 62,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": false,
                             "parent": "-1",
                             "children": []
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "file": "back/src/main/java/com/gl/ibuysu/controllers/UserController.java",
+            "propagations": [
                 {
-                    "featureKey": "c45a66ae-8835-4f4b-8e26-860a81d539ec",
+                    "featureKey": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
                     "ranges": [
                         {
-                            "propagationId": "688d5b11-9ef7-42ce-9374-81f82391608d",
-                            "sourceId": "688d5b11-9ef7-42ce-9374-81f82391608d",
-                            "startLine": 15,
-                            "startColumn": 14,
-                            "endLine": 15,
-                            "endColumn": 31,
-                            "isValidated": true,
-                            "analyzer": "Resource Analyzer",
+                            "propagationId": "0dea1224-d023-4177-9792-78e7ce6f9cd4",
+                            "sourceId": "0dea1224-d023-4177-9792-78e7ce6f9cd4",
+                            "startLine": 19,
+                            "startColumn": 0,
+                            "endLine": 22,
+                            "endColumn": 5,
+                            "isValidated": false,
+                            "analyzer": "Interoperable analyzer",
                             "isFromMarker": true,
-                            "libraryId": "-Without-Fog",
-                            "parent": "-1",
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "featureKey": "1199f8a2-1eee-4c37-9aa7-0d50566183ed",
-                    "ranges": [
-                        {
-                            "propagationId": "b05dbd3a-d44c-4a5e-88f9-7df800ed14a7",
-                            "sourceId": "b05dbd3a-d44c-4a5e-88f9-7df800ed14a7",
-                            "startLine": 56,
-                            "startColumn": 14,
-                            "endLine": 56,
-                            "endColumn": 21,
-                            "isValidated": true,
-                            "analyzer": "Resource Analyzer",
-                            "isFromMarker": true,
-                            "libraryId": "Background-Color",
                             "parent": "-1",
                             "children": []
                         }
@@ -512,51 +607,7 @@
             ]
         }
     ],
+    "replacementPropagations": [],
     "resourcePropagations": [],
-    "pathPropagations": [
-        {
-            "propagationId": "db5c0b9f-bbeb-48b3-bb8f-0f96a476bfb7",
-            "sourceId": "b34b39e2-3aab-44b1-8134-009d67384131",
-            "propagatedPath": "front/src/assets/amazon.png",
-            "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
-            "isValidated": true,
-            "analyzer": "File system analyzer",
-            "isFromMarker": false,
-            "contentAnalysis": false
-        },
-        {
-            "propagationId": "891a9249-e1d2-444c-8fee-45dcfcc1a095",
-            "sourceId": "72ca7c6f-bce2-43c0-987f-8c2f93d1a191",
-            "propagatedPath": "front/src/assets/ibuysu.png",
-            "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
-            "isValidated": true,
-            "analyzer": "File system analyzer",
-            "isFromMarker": false,
-            "contentAnalysis": false
-        }
-    ]
-    ],
-    "resourcePropagations": [],
-    "pathPropagations": [
-        {
-            "propagationId": "db5c0b9f-bbeb-48b3-bb8f-0f96a476bfb7",
-            "sourceId": "b34b39e2-3aab-44b1-8134-009d67384131",
-            "propagatedPath": "front/src/assets/amazon.png",
-            "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
-            "isValidated": true,
-            "analyzer": "File system analyzer",
-            "isFromMarker": false,
-            "contentAnalysis": false
-        },
-        {
-            "propagationId": "891a9249-e1d2-444c-8fee-45dcfcc1a095",
-            "sourceId": "72ca7c6f-bce2-43c0-987f-8c2f93d1a191",
-            "propagatedPath": "front/src/assets/ibuysu.png",
-            "featureKey": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
-            "isValidated": true,
-            "analyzer": "File system analyzer",
-            "isFromMarker": false,
-            "contentAnalysis": false
-        }
-    ]
+    "pathPropagations": []
 }
