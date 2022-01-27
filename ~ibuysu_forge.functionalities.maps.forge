@@ -301,7 +301,7 @@
                     "endLine": 162,
                     "endColumn": 5,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 }
             ]
         },
