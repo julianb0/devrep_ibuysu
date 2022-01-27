@@ -1,0 +1,263 @@
+{
+    "core": {
+        "key": "a33028db-a820-4141-be2e-a544820afcbc",
+        "name": "ibuysu_forge",
+        "type": "Core",
+        "parent": "-1",
+        "parentRelation": "Normal",
+        "presence": "Mandatory",
+        "lgFile": "",
+        "role": "",
+        "hexColor": "",
+        "help": "",
+        "nodeWeight": -1
+    },
+    "functionalities": [
+        {
+            "key": "d17d4b69-b323-4253-bfe3-0a25635de297",
+            "name": "TypeVente",
+            "type": "Functionality feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Mandatory",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#85c35c",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "04981398-5fc4-4bc2-9607-5f5814057449",
+            "name": "VenteEncheres",
+            "type": "Functionality feature",
+            "parent": "d17d4b69-b323-4253-bfe3-0a25635de297",
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#c32a02",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "93adbd37-821b-4425-a2f8-f558afee9a4a",
+            "name": "VenteDirecte",
+            "type": "Functionality feature",
+            "parent": "d17d4b69-b323-4253-bfe3-0a25635de297",
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#8e1b46",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "099367a9-2b00-4cc9-b997-433c26f05e42",
+            "name": "Recherche",
+            "type": "Functionality feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#37646e",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "fda7babd-c5da-45bf-ae50-aa0fe05b72f5",
+            "name": "RechercheParKeyword",
+            "type": "Functionality feature",
+            "parent": "099367a9-2b00-4cc9-b997-433c26f05e42",
+            "parentRelation": "Or",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#d90faa",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "bde2b9d9-1dce-47e2-9369-4a9d2526b90d",
+            "name": "RechercheParCategorie",
+            "type": "Functionality feature",
+            "parent": "099367a9-2b00-4cc9-b997-433c26f05e42",
+            "parentRelation": "Or",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#14385d",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
+            "name": "MoyenPaiement",
+            "type": "Functionality feature",
+            "parent": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#3fdb6c",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "49fa108c-b2de-4edd-8b30-2f7bae9c050c",
+            "name": "PaiementParCompte",
+            "type": "Functionality feature",
+            "parent": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#4335c1",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "0f9bd53f-8c35-44bf-b0b4-a2302dce7f41",
+            "name": "PaiementParCarte",
+            "type": "Functionality feature",
+            "parent": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#2a4cac",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "eb1a2c6d-6446-42e6-90ac-3df61956a061",
+            "name": "PaiementCarteEtCompte",
+            "type": "Functionality feature",
+            "parent": "4ca6a3fe-0a45-4258-b962-5653c1141dc9",
+            "parentRelation": "Or",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#ae5cb1",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "4bfac49a-d0b9-4f75-8f4b-19885107c16b",
+            "name": "CreationVendeur",
+            "type": "Functionality feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#9dfd8a",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "7b29f4f7-625b-48e8-9f0b-2a6d2c524d96",
+            "name": "VenteDirecteEtEncheres",
+            "type": "Functionality feature",
+            "parent": "d17d4b69-b323-4253-bfe3-0a25635de297",
+            "parentRelation": "Or",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#8e12d8",
+            "help": "",
+            "nodeWeight": -1
+        }
+    ],
+    "fileResources": [
+        {
+            "key": "2c8bc053-dc71-44cd-9b1e-0d6fbab237cc",
+            "name": "Logo",
+            "type": "Resource feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#67c7f0",
+            "help": "",
+            "nodeWeight": -1,
+            "filePath": "front/src/assets"
+        }
+    ],
+    "textResources": [
+        {
+            "key": "0990e39e-0b81-41e1-b744-281d93c6704c",
+            "name": "Presentation",
+            "type": "Resource feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#a8320b",
+            "help": "",
+            "nodeWeight": -1
+        }
+    ],
+    "smartAppAssetResources": [],
+    "colorResources": [
+        {
+            "key": "c45a66ae-8835-4f4b-8e26-860a81d539ec",
+            "name": "Fog",
+            "type": "Resource feature",
+            "parent": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#e2373d",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+            "name": "Colors",
+            "type": "Resource feature",
+            "parent": "a33028db-a820-4141-be2e-a544820afcbc",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#e63b3b",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "1199f8a2-1eee-4c37-9aa7-0d50566183ed",
+            "name": "Background",
+            "type": "Resource feature",
+            "parent": "3a35201f-4e62-4f01-b3ef-db2a79472f50",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#127fe0",
+            "help": "",
+            "nodeWeight": -1
+        }
+    ],
+    "referencedModels": [],
+    "constraints": [
+        {
+            "type": "⇔",
+            "left": {
+                "type": "feature",
+                "featureKey": "7b29f4f7-625b-48e8-9f0b-2a6d2c524d96"
+            },
+            "right": {
+                "type": "∧",
+                "left": {
+                    "type": "feature",
+                    "featureKey": "04981398-5fc4-4bc2-9607-5f5814057449"
+                },
+                "right": {
+                    "type": "feature",
+                    "featureKey": "93adbd37-821b-4425-a2f8-f558afee9a4a"
+                }
+            }
+        }
+    ]
+}

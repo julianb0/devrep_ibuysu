@@ -78,7 +78,7 @@
                     "endLine": 83,
                     "endColumn": 16,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 },
                 {
                     "id": "f1377674-1a57-453d-897b-b11e862f9a6b",
@@ -116,7 +116,7 @@
                     "endLine": 22,
                     "endColumn": 5,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 }
             ]
         },
@@ -176,7 +176,7 @@
                     "endLine": 158,
                     "endColumn": 3,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 }
             ]
         },
@@ -192,7 +192,7 @@
                     "endLine": 5,
                     "endColumn": 8,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 },
                 {
                     "id": "d49dc08b-656d-4416-98d0-b8584c0a34c1",
@@ -317,7 +317,7 @@
                     "endLine": 31,
                     "endColumn": 3,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 },
                 {
                     "id": "4d0b482f-1531-4cb1-950d-ef0bf8a89a2f",
@@ -328,7 +328,7 @@
                     "endLine": 35,
                     "endColumn": 3,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 },
                 {
                     "id": "b656bd71-fdff-41b6-abc2-2bba43cd436c",
@@ -339,7 +339,7 @@
                     "endLine": 43,
                     "endColumn": 3,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 }
             ]
         },
@@ -355,7 +355,7 @@
                     "endLine": 18,
                     "endColumn": 3,
                     "type": "Deletion",
-                    "isValidated": false
+                    "isValidated": true
                 }
             ]
         }
