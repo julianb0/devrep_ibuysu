@@ -1,24 +1,6 @@
 {
     "replacements": [
         {
-            "id": "Other-Logo",
-            "content": "assets/amazon.png",
-            "editorExtension": ".html"
-        },
-        {
-            "id": "Background-Color",
-            "content": "rgba(172, 38, 38, .4)",
-            "editorExtension": ".scss"
-        },
-        {
-            "id": "-Modified-Presentation",
-            "content": "",
-            "editorExtension": ".html"
-        },
-        {
-            "id": "-Without-Fog",
-            "content": "",
-            "editorExtension": ".scss"
             "id": "-Without-CreationVendeur",
             "content": "        return false;",
             "editorExtension": ".java"
