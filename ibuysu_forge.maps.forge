@@ -31,10 +31,10 @@
                             "isFromMarker": true,
                             "parent": "-1",
                             "children": [
-                                "f1377674-1a57-453d-897b-b11e862f9a6b",
                                 "e69508e1-9e26-4ab7-ae78-b5b1f8cddff2",
                                 "21adfb83-7ff9-4934-a346-8335ada81276",
                                 "e7553991-205a-44b0-af82-a9854d0333d3",
+                                "f1377674-1a57-453d-897b-b11e862f9a6b",
                                 "699dc4a6-221a-44ec-8d05-240d8a539e94",
                                 "5da00887-708e-46d3-b9cb-0769ac6ba8d7"
                             ]
@@ -95,6 +95,19 @@
                             "isFromMarker": true,
                             "parent": "-1",
                             "children": []
+                        },
+                        {
+                            "propagationId": "f1377674-1a57-453d-897b-b11e862f9a6b",
+                            "sourceId": "f1377674-1a57-453d-897b-b11e862f9a6b",
+                            "startLine": 84,
+                            "startColumn": 0,
+                            "endLine": 84,
+                            "endColumn": 14,
+                            "isValidated": true,
+                            "analyzer": "Interoperable analyzer",
+                            "isFromMarker": true,
+                            "parent": "-1",
+                            "children": []
                         }
                     ]
                 },
@@ -126,24 +139,6 @@
                             "startColumn": 0,
                             "endLine": 83,
                             "endColumn": 16,
-                            "isValidated": true,
-                            "analyzer": "Interoperable analyzer",
-                            "isFromMarker": true,
-                            "parent": "-1",
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "featureKey": "eb1a2c6d-6446-42e6-90ac-3df61956a061",
-                    "ranges": [
-                        {
-                            "propagationId": "f1377674-1a57-453d-897b-b11e862f9a6b",
-                            "sourceId": "f1377674-1a57-453d-897b-b11e862f9a6b",
-                            "startLine": 84,
-                            "startColumn": 0,
-                            "endLine": 84,
-                            "endColumn": 14,
                             "isValidated": true,
                             "analyzer": "Interoperable analyzer",
                             "isFromMarker": true,
@@ -401,24 +396,6 @@
                             "startLine": 99,
                             "startColumn": 0,
                             "endLine": 102,
-                            "endColumn": 5,
-                            "isValidated": true,
-                            "analyzer": "Interoperable analyzer",
-                            "isFromMarker": true,
-                            "parent": "-1",
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "featureKey": "93adbd37-821b-4425-a2f8-f558afee9a4a",
-                    "ranges": [
-                        {
-                            "propagationId": "91173d27-9f9b-4b09-acb8-a0c93aec9dfa",
-                            "sourceId": "91173d27-9f9b-4b09-acb8-a0c93aec9dfa",
-                            "startLine": 34,
-                            "startColumn": 0,
-                            "endLine": 50,
                             "endColumn": 5,
                             "isValidated": true,
                             "analyzer": "Interoperable analyzer",

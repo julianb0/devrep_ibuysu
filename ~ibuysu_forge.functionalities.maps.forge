@@ -249,17 +249,6 @@
             "file": "back/src/main/java/com/gl/ibuysu/controllers/ArticleController.java",
             "seeds": [
                 {
-                    "id": "91173d27-9f9b-4b09-acb8-a0c93aec9dfa",
-                    "analyzer": "Interoperable analyzer",
-                    "featureKey": "93adbd37-821b-4425-a2f8-f558afee9a4a",
-                    "startLine": 34,
-                    "startColumn": 0,
-                    "endLine": 50,
-                    "endColumn": 5,
-                    "type": "Deletion",
-                    "isValidated": true
-                },
-                {
                     "id": "52ebe460-acf6-403d-ac9f-04bcd844de70",
                     "analyzer": "Interoperable analyzer",
                     "featureKey": "04981398-5fc4-4bc2-9607-5f5814057449",
